@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A9B92E3248A2EB800B88C61 /* wkwebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wkwebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9B92E3248A2EB800B88C61 /* appskool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appskool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9B92E6248A2EB800B88C61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9B92E8248A2EB800B88C61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A9B92EB248A2EB800B88C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		5A9B92E4248A2EB800B88C61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A9B92E3248A2EB800B88C61 /* wkwebview.app */,
+				5A9B92E3248A2EB800B88C61 /* appskool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A9B92E2248A2EB800B88C61 /* wkwebview */ = {
+		5A9B92E2248A2EB800B88C61 /* appskool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "wkwebview" */;
+			buildConfigurationList = 5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "appskool" */;
 			buildPhases = (
 				5A9B92DF248A2EB800B88C61 /* Sources */,
 				5A9B92E0248A2EB800B88C61 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = wkwebview;
+			name = appskool;
 			productName = wkwebview;
-			productReference = 5A9B92E3248A2EB800B88C61 /* wkwebview.app */;
+			productReference = 5A9B92E3248A2EB800B88C61 /* appskool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,10 +91,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					5A9B92E2248A2EB800B88C61 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = "";
 					};
 				};
 			};
@@ -111,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A9B92E2248A2EB800B88C61 /* wkwebview */,
+				5A9B92E2248A2EB800B88C61 /* appskool */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +188,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -248,6 +250,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -289,7 +292,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.wkwebview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,7 +309,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.wkwebview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -323,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "wkwebview" */ = {
+		5A9B92F5248A2EBA00B88C61 /* Build configuration list for PBXNativeTarget "appskool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A9B92F6248A2EBA00B88C61 /* Debug */,
