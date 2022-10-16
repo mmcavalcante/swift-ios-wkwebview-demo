@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  wkwebview
-//
-//  Created by Afrar Malakooth on 6/5/20.
-//
 
 import UIKit
 import WebKit
@@ -19,7 +13,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "https://www.google.com")!
+        let url = URL(string: "https://appskool.bubbleapps.io/version-test?debug_mode=true")!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
     }
